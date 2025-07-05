@@ -1,0 +1,47 @@
+# ======================
+# 🐍 Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# 🧠 Django
+# ======================
+db.sqlite3
+*.log
+
+# ======================
+# 🔥 Firebase Admin SDK (DO NOT COMMIT)
+# ======================
+**/budget-buddy-*-firebase-adminsdk-*.json
+
+# ======================
+# 🔐 Secret Environment Variables
+# ======================
+.env
+
+# ======================
+# 📦 Virtual Environments
+# ======================
+.venv/
+env/
+venv/
+
+# ======================
+# 📁 Pipenv / Poetry
+# ======================
+Pipfile.lock
+poetry.lock
+
+# ======================
+# 🧠 Migrations (optional - only exclude pycache)
+# ======================
+**/migrations/__pycache__/
+
+# ======================
+# 💻 IDEs & OS
+# ======================
+.vscode/
+.idea/
+.DS_Store
